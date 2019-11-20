@@ -1,4 +1,4 @@
-languaje: java
+language: java
 deploy:
  skip_cleanup: true
  provider: heroku
