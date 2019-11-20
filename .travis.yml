@@ -1,5 +1,5 @@
 languaje: java
-deply:
+deploy:
  skip_cleanup: true
  provider: heroku
  app: spark-example-agallegoroz
