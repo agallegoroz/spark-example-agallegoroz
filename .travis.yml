@@ -1,5 +1,7 @@
 language: java
 deploy:
- skip_cleanup: true
- provider: heroku
- app: spark-example-agallegoroz
+  skip_cleanup: true
+  provider: heroku
+  app: spark-example-agallegoroz
+  api_key:
+    secure: eHau/oD5BaW0ZRye5b3FUhfbxxi10Kvu4mQIAupiBOpegUn0ojz3ubwculi9okgHyYvNJQfJFrUzf9QLh/qQVB9+CQdmaAo9f8zWYwmyfgVkKg50DPNHTl8fW1yXH5+TQgHJJkOwiCRv6HMHQgmOimFee1nCtp8wpQJ09qrjirTUw5ncuGthrnO3Tw2OU80AW5rcSzw9VElyT0GXV5krkg+3T5Re7G5mdxmCJJHurrf0+DKBJeDGjsMxXllB0c8ATGKz9GUdZBuOqzN96U3x/ncwPS1+cyOSzGV2ljNrQfFfOzuPzcmImoNQPEb8aVmpmu8Hz4kRuznxNy4NLdoqA20zViygMs47vOHEvMYMc071Wq1kR/aGs5YJvRau7uShge6UZ1zdQr4w9n0m2MmKxAx8CpuL2/i0Kkn6xkGdOCHT9SdblU0tja/APpRio6YWaS+UJlHrQmAZBL5PCiveo8/lv8Sb4G8/oBvvCh5Vo/dV7e9f8VlGZ3cYzChyAFCHWosJ4M3JufzmdeczL/T57C+Uwdg5C8u3hFQKEjYeJLREmuAmanjW5vtqIb14Pw/qxhNrpBfJSU2phZkGLY4hgQPMbZY+Su5JQJz/hYjAVzj08kKxdmtuI9rxnpf6Vl+Lz/cwzppOkqMGnIFDAo6bft377bVmL0A9StBK0aF0SD4=
